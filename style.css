@@ -1,0 +1,502 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+nav{
+    background: black;
+    color: white;
+    border: 18px solid black;
+    box-sizing: border-box;
+    
+}
+.navbar li{
+    list-style: none;
+}
+.navitems{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.navitem1{
+    width: 15%;
+    position: relative;
+}
+.soldev{
+    display: flex;
+    width: 60%;
+    position: absolute;
+    top:60px;
+    z-index: 1;
+    background: rgb(206, 202, 202);
+    border-radius: 4px;
+    padding: 8px 14px;
+}
+ .fdev{
+    display: flex;
+    width: 30%;
+    position: absolute;
+    z-index: 1;
+    background: rgb(206, 202, 202);
+    padding-bottom: 20px;
+    border-radius: 4px;
+    padding: 8px 14px;
+    top:60px;
+}
+
+ .rdev{
+    display: flex;
+    width: 28%;
+    position: absolute;
+    z-index: 1;
+    background: rgb(206, 202, 202);
+    border-radius: 4px;
+    padding-bottom: 20px;
+    padding: 8px 14px;
+    top:60px;
+
+}
+.sol-list, .l-list{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 45%;
+    color: rgb(5, 2, 2);
+    justify-content: space-between;
+}
+.sol-item, .l-item{
+    margin: 3px;
+    margin-right: 10px;
+    padding-top: 20px;
+    font:bold;
+    flex-wrap: wrap;
+}
+.option{
+    width:200px;
+    padding: 6px;
+    color: rgb(85, 84, 84);
+}
+.sol-item p{
+    width:300px;
+    padding-top:10px ;
+    color: rgb(85, 84, 84);
+}
+.nav-item1 span, .nav-item2 span, .nav-item3 span{
+    z-index: 2;
+    position: relative;
+    font-size: large;
+    cursor: pointer;
+}
+.nav-item1:hover, .nav-item2:hover, .nav-item3:hover{
+    background: rgb(82, 83, 83);
+    border-radius: 5px;
+}
+.nav-item1:hover .soldev, .nav-item2:hover .fdev, .nav-item3:hover .rdev{
+    display: flex;
+}
+.soldev, .fdev, .rdev{
+    display: none;
+}
+.logo{
+    fill:white;
+}
+.nav-item4:hover, .nav-item5:hover, .nav-item6:hover, .nav-item7:hover{
+    background: rgb(82, 83, 83);
+    border-radius: 5px;
+}
+.nav-item1, .nav-item2, .nav-item3, .nav-item4, .nav-item5, .nav-item6, .nav-item7{
+    padding: 10px;
+    cursor: pointer;
+}
+.l-item span{
+    font:900;
+    text-decoration: underline;
+}
+.option:hover{
+    background:rgb(158, 158, 158) ;
+    border-radius: 5px;
+    width:120px;
+}
+.sol:hover{
+    text-decoration: underline;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    background: rgb(0,0,0);
+    font-size: 40px;
+    height: 520px;
+    justify-content: center;
+}
+.main-text{
+    color: white;
+    width: 100%;
+}
+.content{
+    display: flex;
+    background: rgb(214, 208, 199);
+    font-size: 40px;
+    height: 250px;
+}
+.up, .down{
+    margin: auto;
+    width: 60%;
+    text-align: center;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.see{
+    color: white;
+    font-size: 25px;
+    padding: 10px;
+    background: rgb(83, 83, 216);
+    height: 30px;
+    border-radius: 7px;
+    margin: auto;
+    
+}
+.join{
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border:3px solid white;
+    height: 30px;
+    border-radius: 7px;
+    margin: auto;
+}
+.see:hover{
+    background-color: rgb(73, 73, 226);
+    scale: 1.04;
+}
+.join:hover{
+    background-color: white;
+    color: black;
+    scale: 1.04;
+}
+.card-section{
+    display: flex;
+    flex-wrap: wrap;
+    background: black;
+    height: 100%;
+    justify-content: center;
+}
+.card1{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    background: rgb(221, 204, 184);
+    width: 340px;
+    height: 600px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+.card2{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    background: rgb(248, 186, 53);
+    width: 340px;
+    height: 600px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+.card3{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    background: rgb(117, 134, 39);
+    width: 340px;
+    height: 600px;
+    margin-bottom:10px ;
+    border-radius: 15px;
+}
+.card1 img{
+    width: 300px;
+    align-self: center;
+    border-radius: 45px;
+}
+.card2 img{
+    width: 300px;
+    border-radius: 45px;
+}
+.card3 img{
+    width: 300px;
+    border-radius: 45px;
+}
+.card-t, .card-h, .c-butt{
+    margin: 10px;
+    font: 1em sans-serif;
+}
+.card-h{
+    margin: 20px;
+    font: 1em sans-serif;
+    font-size: 40px;
+}
+.card-t{
+    font-size: 20px;
+}
+.c-butt{
+    font-size: 25px;
+    border: 2px solid black;
+    width:130px;
+    border-radius: 9px;
+    padding: 8px;
+}
+.card1:hover{
+    transform: scale(1.03);
+    transition-duration: .4s;
+}
+.card2:hover{
+    transform: scale(1.03);
+    transition-duration: .4s;
+}
+.card3:hover{
+    transform: scale(1.03);
+    transition-duration: .4s;
+}
+.c-butt:hover{
+    background-color: black;
+    color: white;
+}
+.card1 .c-butt{
+    margin-top: 55px;
+}
+.integration{
+    display: flex;
+    background-color: rgb(207, 207, 207);
+    justify-content: space-around;
+    height: 250px;
+}
+.intro{
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    height: 100px;
+    margin: 10px 10px;
+}
+.intro-t{
+    font-size: 20px;
+}
+
+.logo1{
+    flex-wrap: wrap;
+    width:700px;
+    margin: 10px 10px;
+}
+.logo1 svg{
+    height: 50px;
+    width: 90px;
+    margin: 10px;
+}
+.intro span{
+    margin: 4px 10px;
+    font-weight: 900;
+    display: block;
+    font-size: 17px;
+}
+.community{
+    background-color: black;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    height: 600px;
+}
+.comm-t{
+    margin-top: 20px;
+    margin: auto;
+font-size: 25px;
+text-align: center;
+}
+.move-c{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.comm-card{
+width: 300px;
+margin-bottom:20px;
+background-color:rgb(149, 223, 198) ;
+color: black;
+padding: 10px;
+border-radius: 20px;
+
+}
+.comm-card1{
+width: 300px;
+margin-bottom:20px;
+background-color:rgb(111, 48, 136) ;
+color: black;
+padding: 10px;
+border-radius: 20px;
+}
+footer{
+    background-color: rgb(119, 119, 119);
+}
+.footer{
+    display: flex;
+    justify-content:space-around;
+    list-style: none;
+}
+.footer-item{
+    flex-wrap: wrap;
+    margin-top: 40px;
+    margin-right: 7px;
+    color: rgb(194, 194, 194);
+}
+.use-item{
+    list-style: none;
+    padding: 20px;
+}
+.item{
+    padding: 10px;
+    width:100px;
+    cursor: pointer;
+    color: azure;
+}
+.item:hover{
+    text-decoration: underline;
+}
+@media screen and (max-width:457px) {
+    .navitems{
+        flex-direction: column;
+        align-items: center;
+    }
+    .soldev{
+        left:60px;
+        top: 55px;
+        position: static;
+        flex-wrap: wrap;
+        width: 200px;
+    }
+    .nav-item1 span{
+        z-index: 2;
+    }
+    .nav-item1:hover{
+        z-index: 3;
+    }
+   
+    .l-list{
+        justify-content: center;
+    }
+    .fdev{
+        top:95px;
+        left: 75px;
+        width: 200px;
+        position: static;
+        text-align: center;
+    }
+    .rdev{
+        top:130px;
+        left:3.5rem;
+        position: static;
+        width: 200px;
+        text-align: center;
+    }
+    .nav-item1:hover, .nav-item2:hover, .nav-item3:hover{
+        background: rgb(0, 0, 0);
+        border-radius: 5px;
+    }
+   .option:hover{
+    width: 180px;
+   }
+    .nav-item2 span{
+        z-index: 2;
+    }
+    .nav-item2:hover{
+        z-index: 3;
+    }
+    .nav-item3 span{
+        z-index: 2;
+    }
+    .nav-item3:hover{
+        z-index: 3;
+    }
+    .sol p{
+       text-align: center;
+    }
+    .sol-item{
+        flex-wrap: wrap;
+        display: flex;
+        width: 180px;
+        margin:7px;
+    }
+    .down{
+        font-size: 35px;
+    }
+    .footer{
+        justify-content: center;
+    }
+    .footer-item{
+        flex-direction: column;
+        width: 80px;
+    }
+    .item{
+        padding: 0;
+
+    }
+    .card1{
+        width:260px;
+    }
+    .card2{
+        width:260px;
+    }
+    .card3{
+        width:260px;
+    }
+    .card1 img{
+        width:260px;
+    }
+    .card2 img{
+        width:260px;
+    }
+    .card-h{
+        font-size: 30px;
+    }
+    .card-t{
+        font-size: 20px;
+    }
+    .card3 img{
+        width:260px;
+    }
+    .logo1 svg{
+        height: 30px;
+        width: 55px;
+    }
+    .comm-t{
+        font-size: 15px;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media screen and (min-width:458px) {
+    .soldev{
+        width: 300px;
+    }
+    .fdev{
+        width: 130px;
+    }
+    .rdev{
+        width: 130px;
+    }
+    .logo1 svg{
+        height: 30px;
+        width: 60px;
+    }
+    .option{
+        width: 120px;
+    }
+    .l-item{
+        margin-top:-10px;
+    }
+}
+@media screen and (max-width:1000px) {
+   .logo1{
+    height: 190px;
+    width: 400px;
+   }
+}
