@@ -125,12 +125,17 @@ nav{
     flex-direction: column;
     background: rgb(0,0,0);
     font-size: 40px;
-    height: 520px;
+    height: 1080px;
     justify-content: center;
+    align-items: center;
 }
 .main-text{
     color: white;
     width: 100%;
+}
+video{
+    height:70vh;
+    width:100vh;
 }
 .content{
     display: flex;
@@ -139,7 +144,7 @@ nav{
     height: 250px;
 }
 .up, .down{
-    margin: auto;
+    margin: 30px;
     width: 60%;
     text-align: center;
     display: block;
@@ -151,6 +156,7 @@ nav{
     padding: 10px;
     background: rgb(83, 83, 216);
     height: 30px;
+    width:100px ;
     border-radius: 7px;
     margin: auto;
     
@@ -421,6 +427,10 @@ footer{
         display: flex;
         width: 180px;
         margin:7px;
+    }
+    video{
+        height: 40vh;
+        width: 30vh;
     }
     .down{
         font-size: 35px;
