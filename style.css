@@ -125,7 +125,7 @@ nav{
     flex-direction: column;
     background: rgb(0,0,0);
     font-size: 40px;
-    height: 1080px;
+    height: 1600px;
     justify-content: center;
     align-items: center;
 }
@@ -133,9 +133,9 @@ nav{
     color: white;
     width: 100%;
 }
-video{
-    height:70vh;
-    width:100vh;
+.video{
+    height:90vh;
+    width:100%;
 }
 .content{
     display: flex;
@@ -144,7 +144,7 @@ video{
     height: 250px;
 }
 .up, .down{
-    margin: 30px;
+    margin: 60px 0;
     width: 60%;
     text-align: center;
     display: block;
@@ -158,7 +158,7 @@ video{
     height: 30px;
     width:100px ;
     border-radius: 7px;
-    margin: auto;
+    margin:3rem auto;
     
 }
 .join{
@@ -365,6 +365,13 @@ footer{
     text-decoration: underline;
 }
 @media screen and (max-width:457px) {
+    .up, .down{
+        margin: 40px 0;
+        font-size: 2rem;
+    }
+    .main{
+        height: 1300px;
+    }
     .navitems{
         flex-direction: column;
         align-items: center;
@@ -428,12 +435,17 @@ footer{
         width: 180px;
         margin:7px;
     }
-    video{
-        height: 40vh;
-        width: 30vh;
+    .video{
+        height: 80vh;
+        width: 90%;
     }
+    .join{
+        margin: 5rem;
+    }
+
     .down{
-        font-size: 35px;
+        font-size: 1rem;
+        font-weight: 600;
     }
     .footer{
         justify-content: center;
@@ -476,12 +488,16 @@ footer{
     }
     .comm-t{
         font-size: 15px;
+        padding-top: 2rem;
     }
     .footer{
         display: flex;
         flex-direction: column;
         align-items: center;
     }
+}
+.move-c{
+    margin-top: 10rem;
 }
 @media screen and (min-width:458px) {
     .soldev{
@@ -499,6 +515,9 @@ footer{
     }
     .option{
         width: 120px;
+    }
+    .join{
+        margin: 5rem;
     }
     .l-item{
         margin-top:-10px;
