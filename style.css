@@ -135,9 +135,7 @@ nav{
 }
 video{
     height:100vh;
-    
-    
-    
+    width: 100%;
 }
 .video{
     display: flex;
@@ -160,10 +158,12 @@ video{
 .see{
     color: white;
     font-size: 25px;
-    padding: 10px;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
     background: rgb(83, 83, 216);
-    height: 30px;
-    width:100px ;
+    height: 25px;
+    width:110px ;
     border-radius: 7px;
     margin:3rem auto;
     
@@ -171,9 +171,9 @@ video{
 .join{
     color: white;
     font-size: 20px;
-    padding: 10px;
+    padding: 8px;
     border:3px solid white;
-    height: 30px;
+    height: 25px;
     border-radius: 7px;
     margin: auto;
 }
@@ -443,8 +443,7 @@ footer{
         margin:7px;
     }
     .video{
-        height: 80vh;
-        width: 90%;
+        height: 45vh;
     }
     .join{
         margin: 5rem;
@@ -488,6 +487,14 @@ footer{
     }
     .card3 img{
         width:260px;
+    }
+    .c-butt{
+        font-size: 18px;
+        border: 2px solid black; 
+        display: flex;
+        justify-content: center;
+        width:100px;
+        border-radius: 9px;
     }
     .logo1 svg{
         height: 30px;
