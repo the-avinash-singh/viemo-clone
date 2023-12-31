@@ -8,7 +8,7 @@ nav{
     color: white;
     border: 18px solid black;
     box-sizing: border-box;
-    
+    padding-bottom: 3rem;
 }
 .navbar li{
     list-style: none;
@@ -149,7 +149,7 @@ video{
     height: 250px;
 }
 .up, .down{
-    margin: 60px 0;
+    margin: 40px 0;
     width: 60%;
     text-align: center;
     display: block;
@@ -175,7 +175,7 @@ video{
     border:3px solid white;
     height: 25px;
     border-radius: 7px;
-    margin: auto;
+    
 }
 .see:hover{
     background-color: rgb(73, 73, 226);
@@ -190,7 +190,7 @@ video{
     display: flex;
     flex-wrap: wrap;
     background: black;
-    height: 100%;
+    height: 110%;
     justify-content: center;
 }
 .card1{
@@ -200,8 +200,8 @@ video{
     background: rgb(221, 204, 184);
     width: 340px;
     height: 600px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     border-radius: 15px;
 }
 .card2{
@@ -211,7 +211,7 @@ video{
     background: rgb(248, 186, 53);
     width: 340px;
     height: 600px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     border-radius: 15px;
 }
 .card3{
@@ -221,7 +221,7 @@ video{
     background: rgb(117, 134, 39);
     width: 340px;
     height: 600px;
-    margin-bottom:10px ;
+    margin-bottom:20px ;
     border-radius: 15px;
 }
 .card1 img{
@@ -444,6 +444,7 @@ footer{
     }
     .video{
         height: 45vh;
+        width: 100%;
     }
     .join{
         margin: 5rem;
@@ -531,7 +532,7 @@ footer{
         width: 120px;
     }
     .join{
-        margin: 5rem;
+        margin: 2rem;
     }
     .l-item{
         margin-top:-10px;
